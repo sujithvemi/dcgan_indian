@@ -1,0 +1,17 @@
+28th Feb 4:30 dataset=LFW
+python main.py --dataset=lfw --dataroot=data/LFW/ --nc=3 --ngf=128 --ndf=128 --epochs=50 --seed=42 --batchSize=128
+
+28th Feb 4:58 dataset=LFW
+python main.py --dataset=lfw --dataroot=data/LFW/ --nc=3 --ngf=128 --ndf=128 --epochs=50 --seed=42 --batchSize=128
+
+28th Feb 11:18 dataset=LFW
+python main.py --dataset=lfw --dataroot=data/LFW/ --nc=3 --ngf=128 --ndf=128 --epochs=50 --seed=42 --batchSize=128
+
+28th Feb 11:42 dataset=LFW
+python main.py --dataset=lfw --dataroot=data/LFW/ --nc=3 --epochs=50 (random seed: 163)
+
+28th Feb 20:46 dataset=LFW start_epoch = 50
+Resuming the above training from epoch 51
+
+28th Feb 21:00 dataset=LFW_Indian
+python main.py --dataset=lfw_indian --dataroot=data/LFW_Indian/ --nc=3 --epochs=100 --seed=163
